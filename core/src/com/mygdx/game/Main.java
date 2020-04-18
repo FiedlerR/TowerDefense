@@ -42,7 +42,6 @@ public class Main extends ApplicationAdapter {
     static int[][] pathFlags = new int[50][2];
     static Tile[] tile;
     static int lastFlag = 0;
-  //  static Texture[] background = new Texture[302];
     static Texture[] guiElements = new Texture[19];
     static int lastBackgroundObject = 0;
     static Texture flag;
@@ -54,7 +53,6 @@ public class Main extends ApplicationAdapter {
     static int isSelected;
     static Sound[] sound = new Sound[30];
     static RayHandler rayHandler;
-    //static FreeTypeFontGenerator.FreeTypeFontParameter parameter;
     static BitmapFont menuFont;
     static BitmapFont siteTitle;
     static BitmapFont bigFont;
@@ -233,12 +231,6 @@ public class Main extends ApplicationAdapter {
                 tile[i].type = -1;
             }
         }
-        //lastBackgroundObject = 0;
-        /*for (int z = 0; z < tile.length; z++) {
-            if (tile[z].type >= 0) {
-                lastBackgroundObject++;
-            }
-        }*/
     }
 
     public static boolean rectangleCollision(double x1, double y1, double b1, double h1, double x2, double y2,

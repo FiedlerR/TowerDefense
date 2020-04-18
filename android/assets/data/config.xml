@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<config>
+	<effectCache>200</effectCache>
+	<tileCache>200</tileCache>
+	<lightEffect>false</lightEffect>
+	<nightDay>false</nightDay>
+</config>
